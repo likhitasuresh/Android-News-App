@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="125dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFFFF"
+                android:scaleType="fitCenter"
+                android:tint="#00FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headlineS"
+                app:srcCompat="@drawable/ic_action_twitter" />
+
+            <ImageButton
+                android:id="@+id/bookmarkS"
+                android:layout_width="125dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headlineS"
+                app:srcCompat="@drawable/ic_action_bookmark_border" />
+
+    <ImageButton
+        android:id="@+id/bookmark_fill"
+        android:layout_width="128dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="#FEFFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headlineS"
+        app:srcCompat="@drawable/ic_action_bookmark" />
+
+    <ImageView
+        android:id="@+id/imageViewS"
+        android:layout_width="250dp"
+        android:layout_height="121dp"
+        android:background="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_action_name" />
+
+            <TextView
+                android:id="@+id/headlineS"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="1dp"
+                android:background="#FFFFFF"
+                android:padding="3dp"
+                android:text="TextView"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageViewS"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
