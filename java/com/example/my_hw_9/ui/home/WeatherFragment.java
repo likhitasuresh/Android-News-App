@@ -108,7 +108,7 @@ public class WeatherFragment extends Fragment {
                                 } else {
                                     MyLat = location.getLatitude();
                                     MyLong = location.getLongitude();
-                                    String url ="https://maps.googleapis.com/maps/api/geocode/json?latlng="+String.valueOf(MyLat)+","+String.valueOf(MyLong)+"&key=AIzaSyBF_Kyi8hraw4ez5lrPJZH3FbJPyPhOO6E";
+                                    String url ="https://maps.googleapis.com/maps/api/geocode/json?latlng="+String.valueOf(MyLat)+","+String.valueOf(MyLong)+"&key=[ENTER API KEY]";
                                     apiCall("weather",url);
 
                                 }
